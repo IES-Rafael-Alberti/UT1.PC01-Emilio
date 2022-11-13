@@ -205,8 +205,39 @@ def filtrar_palabra():
     return palabra
 print(filtrar_palabra())
 ~~~
+Ejercicio 2.16
+~~~
+array=["prueba","casa","Emilio","Emi","pepe"]
+p=input("inserta la letra: ")
 
-● ¿Qué diferencias habría en el desarrollo del programa?
+if   1 < len(p):
+
+    print("error")
+
+else:
+
+    for a in array:
+        if p == a[0]:
+            print(a)
+
+
+~~~
+Ejercicio 2.17
+~~~
+palabra=input("introduzca palabra: ")
+
+def contar_vocales(palabra):
+    lista=["a","e","i","o","u","A","E","I","O","U"]
+    for b in lista:
+        cont=0
+        for a in palabra:
+            if a == b:
+                cont=cont+1
+        if cont > 0:
+            print(f"la vocal {b} se repite {cont}")
+~~~
+
+## **● ¿Qué diferencias habría en el desarrollo del programa?**
 
 Primero tendramos que declarar nuestra biblioteca de C con #include **<stdio.h>**
 
@@ -279,7 +310,7 @@ Esta seria la diferencia en el desarrollo del programa a la hora de estructurarl
 
 --- 
 
-## ● ¿Qué diferencias existen entre los dos lenguajes?
+## **● ¿Qué diferencias existen entre los dos lenguajes?**
 
 ### Diferencias Entre Python y C#
 
@@ -336,7 +367,84 @@ Se utiliza para desarrollar aplicaciones altamente escalables con algunas biblio
 ---
 
 
-● ¿Para qué tipo de programa puede servir cada lenguaje?
+## **● ¿Para qué tipo de programa puede servir cada lenguaje?**
 
-● ¿Cómo sería el proceso de lectura del código fuente de cada programa?
+Python es ampliamente utilizado por empresas de todo el mundo para construir aplicaciones web, analizar datos, automatizar operaciones y crear aplicaciones empresariales fiables y escalables.
 
+C se usó tanto para definir el sistema operativo como para definir el compilador como para crear los programas que funcionaban en UNIX. C se popularizó como lenguaje útil y potente, utilizable bajo cualquier sistema operativo o hardware, se desarrollan tanto aplicaciones como sistemas operativos a la vez que forma la base de otros lenguajes más actuales como Java, C++ o C#.
+
+---
+
+
+## **● ¿Cómo sería el proceso de lectura del código fuente de cada programa?**
+
+En los tres programas en C tendriamos que crear un funcion **Main** que es la principal donde se ejecuta, a raiz de esa funcion main escribiriamos,
+
+ ## Teniendo todos los ejercicios realizados y entregado. Sobre el código fuente creado en la relación de ejercicios de las actividades 0 y 1 de la unidad, realiza en un documento los comentarios sobre todos los ejercicios indicando que elementos del código fuente has utilizado y qué función tienen.
+
+ Elementos utilizados:
+
+
+Input Introducir un valor por pantalla
+~~~
+p=input("inserta la letra: ")
+~~~
+print muestra por pantalla el valor o variable indicada
+~~~
+printx)
+~~~
+arrays o lista para guardar varios valores en una lista
+~~~
+a=[2,4,1,4,5,1]
+~~~
+if condiciones
+~~~
+if str(a) not in '0123456789':
+    print("Valor Desconocido")
+    pass
+else:
+    if a >= 9 and a <= 10:
+        print("A")
+    elif a >= 8 and a <= 9:
+        print("B")
+    elif a >= 7 and a <= 8:
+        print("C")
+    elif a >= 6 and a <= 7:
+        print("D")
+    elif a >= 0 and a <= 6:
+        print("E")
+~~~
+for sirve para hacer bucles igual que el while
+~~~
+for a in b:
+        sum=sum+a
+for c in range(0,10):
+~~~
+while
+~~~
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+~~~
+definicion de funciones y llamadas a la funcion
+~~~
+def mayor_3(num1,num2,num3):
+mayo_3
+~~~
+Caracter aleatorio: te genera un numero aleatorio en el rango indicado del 0 al 100
+~~~
+ n=random.randint(0,100)
+~~~
+la funcion len sirve para contar cuantos caracteres tiene una variable o un dato
+~~~
+len(a)
+~~~
+Concatenar
+~~~
+palabra+=" "+a
+~~~
+agregar mas valores a un array
+~~~
+array.append(edad)
+~~~

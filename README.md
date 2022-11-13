@@ -369,7 +369,7 @@ Se utiliza para desarrollar aplicaciones altamente escalables con algunas biblio
 
 ## **● ¿Para qué tipo de programa puede servir cada lenguaje?**
 
-Python es ampliamente utilizado por empresas de todo el mundo para construir aplicaciones web, analizar datos, automatizar operaciones y crear aplicaciones empresariales fiables y escalables.
+Python es ampliamente utilizado por empresas de todo el mundo para construir aplicaciones web, analizar datos, automatizar operaciones y crear aplicaciones empresariales fiables y escalables es de interpretado.
 
 C se usó tanto para definir el sistema operativo como para definir el compilador como para crear los programas que funcionaban en UNIX. C se popularizó como lenguaje útil y potente, utilizable bajo cualquier sistema operativo o hardware, se desarrollan tanto aplicaciones como sistemas operativos a la vez que forma la base de otros lenguajes más actuales como Java, C++ o C#.
 

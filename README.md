@@ -312,60 +312,22 @@ Esta seria la diferencia en el desarrollo del programa a la hora de estructurarl
 
 ## **● ¿Qué diferencias existen entre los dos lenguajes?**
 
-### Diferencias Entre Python y C#
+C es un lenguaje de programación estructural, mientras que Python es un lenguaje de programación orientado a objetos.
 
-#### 1) Facilidad de uso
+Python es un lenguaje de programación de propósito general, mientras que C se usa principalmente para aplicaciones relacionadas con hardware y código de bajo nivel.
 
-C#
+C es un lenguaje compilado y Python es un lenguaje interpretado.
+La ejecución de código es más rápida en C que en Python.
 
-Los desarrolladores de C # normalmente necesitan un conocimiento básico de las construcciones del lenguaje como funciones y clases. C # es una elección perfecta para cualquier persona con experiencia en Java. 
+Python no admite la funcionalidad de puntero, pero los punteros están disponibles en C.
 
-Python
+C tiene una biblioteca limitada de funciones integradas, mientras que Python es más extensa.
 
-Python no necesita conocimientos de varias construcciones de lenguajes. Como los desarrolladores de Python pueden aprender y comprender más durante el proceso de desarrollo.  
+En C, es obligatorio declarar tipos de variables, pero esto no es necesario en Python.
 
-### 2) Velocidad de programación y desarrollo
-#### C#
+C permite la asignación de líneas, mientras que da errores en Python.
 
-C # ofrece un conjunto predefinido de bibliotecas que se pueden usar en una sintaxis específica. También puede emplear algunos consejos y trucos para acelerar la programación en C #. 
-
-#### Python
-
-Python es un lenguaje de programación extremadamente legible que pone más énfasis en la codificación que en aprender la sintaxis. Tiene una sintaxis simple y requiere que se agregue un punto y coma en cada línea de código para dividir la declaración de línea. 
-
-### 3) Dinámico vs Estático 
-C#
-
-C # es un lenguaje de programación estático. Necesita compilar el código escrito antes de la ejecución de cualquier programa e identificar cualquier error de compilación. Los tipos de datos deben identificarse antes del tiempo de ejecución, de lo contrario, el programa generará una excepción y no se podrá compilar. 
-
-#### Python
-
-Python es un lenguaje de programación dinámico y tiene encasillamiento dinámico. No necesita declaraciones de variables, lo que significa que el tipo de datos de las variables de llamada se determinará durante el tiempo de ejecución. En Python, el proceso es más fácil y rápido: se ejecuta de inmediato. 
-
-### 4) Rendimiento
-#### C#
-
-C# es un lenguaje de programación compilado que extiende el tiempo de compilación de un programa, requiere más tiempo y esfuerzo para escribir código pero produce más eficiencia durante su ejecución.  
-
-#### Python
-
-Python es un lenguaje interpretado; por tanto, su rapidez depende del intérprete. Se ejecuta rápidamente cuando se inicia el programa. 
-
-### 5) Aplicación
-#### C#
-
-C# es un lenguaje de programación orientado a objetos que se emplea para desarrollar una amplia variedad de aplicaciones, desde el escritorio hasta el desarrollo de juegos.
-
-Cuando se trata de la implementación de aplicaciones de aprendizaje automático, C# tiene un número limitado de bibliotecas. 
-
-#### Python
-
-Python es un lenguaje multiparadigma de código abierto y una opción extremadamente popular para el aprendizaje automático.
-
-Se utiliza para desarrollar aplicaciones altamente escalables con algunas bibliotecas famosas como NumPy, Pandas, TensorFlow y muchas más. 
-
----
-
+La sintaxis de Python es más fácil de entender que la de C.
 
 ## **● ¿Para qué tipo de programa puede servir cada lenguaje?**
 
@@ -378,7 +340,20 @@ C se usó tanto para definir el sistema operativo como para definir el compilado
 
 ## **● ¿Cómo sería el proceso de lectura del código fuente de cada programa?**
 
-En los tres programas en C tendriamos que crear un funcion **Main** que es la principal donde se ejecuta, a raiz de esa funcion main escribiriamos,
+En los tres programas en C tendriamos que crear un funcion **Main** que es la principal donde se ejecuta ya a raiz de eso es igual que python ya que son compiladores, la compilacion pasa por 3 fases Preprocesado, Compilación y Enlazado
+
+**Ejercicio 1.12**
+
+El codigo empezaria con la funcion Main predominando dentro de la funcion Main iria un **printF** que pida los datos y con un **Scanf** que guarde los datos de la variable  luego hariamos una funcion que se llame filtrar_palabra con un array y un for dentro con un if y luego haremos un **printf**
+
+**Ejercicio 2.16**
+
+Empezamos con una funcion Main principal y luego dentro de la misma hacemos un array, con scanf y prinf le pedimos que ingrese un valor luego con un fi y else normal con las condiciones y listo
+
+**Ejercicio 2.17**
+
+Empezamos otra vez con una funcion main que predomina, luego dentro creamos otra funcion contar_vocales que contendra dentro un array y un for 
+
 
  ## Teniendo todos los ejercicios realizados y entregado. Sobre el código fuente creado en la relación de ejercicios de las actividades 0 y 1 de la unidad, realiza en un documento los comentarios sobre todos los ejercicios indicando que elementos del código fuente has utilizado y qué función tienen.
 
@@ -391,7 +366,7 @@ p=input("inserta la letra: ")
 ~~~
 print muestra por pantalla el valor o variable indicada
 ~~~
-printx)
+print(x)
 ~~~
 arrays o lista para guardar varios valores en una lista
 ~~~

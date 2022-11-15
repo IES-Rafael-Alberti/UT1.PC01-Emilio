@@ -3,23 +3,17 @@
 #Imprimir la cantidad de personas con edades superiores a 20.
 #Puedes variar el ejercicio para que sea el usuario quien ingrese las edades.
 
-array=[]
-for a in range(0,10):
-
-    edad=int(input("Introduzca las 10 edades "))
-    array.append(edad)
-
-
-def cantidad(array):
-    cont=0
-    for b in array:
-        if b > 20:
-            cont=cont+1
-    print(cont)
+tup=(21,24,3,10,5,1,6,2,0,5)
+con=0
+for a in range(0,9):
 
 
 
+    if tup[a] > 20:
+     con=con+1
+
+
+print(con)
 
 
 
-cantidad(array)

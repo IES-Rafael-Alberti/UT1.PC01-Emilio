@@ -5,6 +5,9 @@
 
 ### ● Debéis elegir 1 ejercicio de UT1.A00 Introducción a la programación - parte 1.
 
+JavaScript es un lenguaje interpretado igual que python
+
+PHP lenguaje de programacion orientado a desarrollo web  
 
 *Ejercicio 1.1*
 ~~~
@@ -340,39 +343,53 @@ C se usó tanto para definir el sistema operativo como para definir el compilado
 
 ## **● ¿Cómo sería el proceso de lectura del código fuente de cada programa?**
 
-En los tres programas en C tendriamos que crear un funcion **Main** que es la principal donde se ejecuta ya a raiz de eso es igual que python ya que son compiladores, la compilacion pasa por 3 fases Preprocesado, Compilación y Enlazado
+En python es un lenguaje interpretado es un lenguaje de programación para el que la mayoría de sus implementaciones ejecuta las instrucciones directamente, sin una previa compilación del programa a instrucciones en lenguaje máquina.
 
-**Ejercicio 1.12**
-
-El codigo empezaria con la funcion Main predominando dentro de la funcion Main iria un **printF** que pida los datos y con un **Scanf** que guarde los datos de la variable  luego hariamos una funcion que se llame filtrar_palabra con un array y un for dentro con un if y luego haremos un **printf**
-
-**Ejercicio 2.16**
-
-Empezamos con una funcion Main principal y luego dentro de la misma hacemos un array, con scanf y prinf le pedimos que ingrese un valor luego con un fi y else normal con las condiciones y listo
-
-**Ejercicio 2.17**
-
-Empezamos otra vez con una funcion main que predomina, luego dentro creamos otra funcion contar_vocales que contendra dentro un array y un for 
+C es un lenguaje de compilacion que realiza varias fases empezando por Preprocesado despues con la Compilacion y luego con el enlazado 
 
 
  ## Teniendo todos los ejercicios realizados y entregado. Sobre el código fuente creado en la relación de ejercicios de las actividades 0 y 1 de la unidad, realiza en un documento los comentarios sobre todos los ejercicios indicando que elementos del código fuente has utilizado y qué función tienen.
 
+ Python utiliza la indentación para indicar donde empieza y donde termina un bloque de codigo
+
  Elementos utilizados:
 
+Variables de esta forma definimos a la variable a que tenga el valor 0 (Usado en todos los programas)
+~~~
+a=0
+~~~
 
-Input Introducir un valor por pantalla
+---
+
+Input Introducir un valor por pantalla (En casi todos los ejercicios)
 ~~~
 p=input("inserta la letra: ")
 ~~~
-print muestra por pantalla el valor o variable indicada
+
+---
+
+print muestra por pantalla el valor o variable indicada (Usado en casi todos los programas)
 ~~~
 print(x)
 ~~~
-arrays o lista para guardar varios valores en una lista
+
+---
+
+Sirve igual que el print lo que pasa que con esta caracterista podemos poner variables 
+~~~
+print(f"El numero {num2} es mayor")
+~~~
+
+---
+
+arrays o lista es una colección de datos y son mutables (Ejercicios: 2.3,2.5,2.7,2.9,2.10,2.16,2.17)
 ~~~
 a=[2,4,1,4,5,1]
 ~~~
-if condiciones
+
+---
+
+if  if se utiliza para ejecutar un bloque de código si, y solo si, se cumple una determinada condición. (Casi todos los ejercicios)
 ~~~
 if str(a) not in '0123456789':
     print("Valor Desconocido")
@@ -389,37 +406,72 @@ else:
     elif a >= 0 and a <= 6:
         print("E")
 ~~~
-for sirve para hacer bucles igual que el while
+
+---
+
+for es un bucle definido, prestablece las condiciones de la iteración por adelantado (Ejercicio: del 2.7 en adelante)
 ~~~
 for a in b:
         sum=sum+a
 for c in range(0,10):
 ~~~
-while
+
+---
+
+while nos permiten realizar la misma tarea en varias ocasiones (no utilizado)
 ~~~
 i = 1
 while i < 6:
   print(i)
   i += 1
 ~~~
-definicion de funciones y llamadas a la funcion
+
+---
+
+definicion de funciones y llamadas a la funcion se encargan de cumplir algún objetivo específico definido por nosotros o por el lenguaje (En casi todos)
 ~~~
 def mayor_3(num1,num2,num3):
 mayo_3
 ~~~
-Caracter aleatorio: te genera un numero aleatorio en el rango indicado del 0 al 100
+
+---
+
+Caracter aleatorio: te genera un numero aleatorio en el rango indicado del 0 al 100 (Ejercicio 2.8)
 ~~~
  n=random.randint(0,100)
 ~~~
-la funcion len sirve para contar cuantos caracteres tiene una variable o un dato
+
+---
+
+la funcion len sirve para contar cuantos caracteres tiene una variable o un dato (Ejercicio 2.12,2.11)
 ~~~
 len(a)
 ~~~
-Concatenar
+
+---
+
+Concatenar unir dos trozos de código o más (En unos cuantos)
 ~~~
 palabra+=" "+a
 ~~~
-agregar mas valores a un array
+
+---
+
+agregar mas valores a un array (Ejercicio 2.15, 2.14)
 ~~~
 array.append(edad)
 ~~~
+
+**Tuplas**
+
+Coleccion de datos pero inmutable(Ejercicio 2.15)
+~~~
+a=(1,2,3)
+~~~
+
+**Operadores logicos**
+
+    and: si ambas son verdaderas
+    or: Si almenos uno es true
+    not: cambiar el valor de verdad
+
